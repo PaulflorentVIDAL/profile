@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background-color: #f7f9fc; 
+  color: rgb(30, 30, 30);
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(246, 55, 45);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+}
+
+.section {
+  background:white;                       
+  padding: 32px;                          
+  border-radius: 4px;                       
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  height: 375px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+#section2 {
+  background:white;                       
+  padding: 32px;                          
+  border-radius: 4px;                       
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  height: 190px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.img-circle {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: rgb(246, 55, 45);
+  color: white;
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid rgb(246, 55, 45);
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+  color: rgb(246, 55, 45);
+  background-color: white;
+  border: 1px solid rgb(246, 55, 45);
+}
+
+.social {
+  color: rgb(180, 180, 180);
+  font-size: 48px;
+}
+
+.social:hover {
+  color: #ffba08;
+}
